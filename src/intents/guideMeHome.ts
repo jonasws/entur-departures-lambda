@@ -5,8 +5,6 @@ import { convertAddressToCoordinates } from "../utils/convertAddressToCoordinate
 import { getDeviceAddress } from "../utils/getDeviceAddress";
 import { minutesBetween } from "../utils/date-utils";
 
-import { isIntentType } from "../utils/request-utils";
-
 // TODO: Make this configurable
 const HOME_ID = process.env.METRO_QUAY_ID;
 
