@@ -4,8 +4,9 @@
     "module": "commonjs",
     "lib": ["esnext", "dom"],
     "rootDir": "./src",
-    "outDir": "./",
-    "allowSyntheticDefaultImports": true
+    "outDir": "./lib",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   },
 
   "exclude": ["__tests__"]

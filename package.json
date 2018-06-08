@@ -4,15 +4,20 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf ./lib",
+    "clean": "rimraf ./lib ./app.zip",
     "build": "npm run clean && tsc"
   },
   "dependencies": {
     "alexa-sdk": "^1.0.25",
-    "entur-departures": "2.1.1"
+    "entur-departures": "../entur-departures",
+    "node-fetch": "^2.1.2",
+    "query-string": "^6.1.0",
+    "ramda": "^0.25.0"
   },
   "devDependencies": {
     "@types/node": "^10.0.3",
+    "@types/node-fetch": "^2.1.1",
+    "@types/ramda": "^0.25.32",
     "rimraf": "^2.6.2",
     "typescript": "^2.8.1"
   }
